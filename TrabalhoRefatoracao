@@ -1,10 +1,12 @@
+//Brunna Vila Chã e Walace Lima
 package entities;
 
 import java.util.ArrayList;
 
 public class Escalacao {
 	private String imprimir;
-
+	private String data;
+	
 	public Escalacao() {
 		this.imprimir="---------Imprimindo Escala��o---------";
 	}
