@@ -5,7 +5,6 @@ import java.util.ArrayList;
 
 public class Escalacao {
 	private String imprimir;
-	private String data;
 	
 	public Escalacao() {
 		this.imprimir="---------Imprimindo Escala��o---------";
@@ -123,8 +122,7 @@ public class EscalacaoTest {
 		Jogador jog5= new Jogador();
 		
 
-	time.setNome(JOptionPane.showInputDialog
-	( "Entre com nome do time:"));
+	time.setNome(JOptionPane.showInputDialog("Entre com nome do time:"));
 
 	
 	System.out.println("Informe o nome do jogador 1: ");
